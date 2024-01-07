@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>client_form</class>
+ <widget class="QFrame" name="client_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="comment">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>380</y>
+     <width>221</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+QPushButton:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Оставить комментарий</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="order">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>221</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+QPushButton:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Составить тур</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tours">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>221</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+QPushButton:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Туры</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
